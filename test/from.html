@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+<form name="forml" action="test.jsp" method ="post">
+    <table  width="300px" bgcolor="#deb887 " cellpadding="5px" >
+        <tr>
+            <td>用户名：</td>
+        </tr>
+
+        <tr>
+            <td>
+                <input name ="user_name" type="text" >
+
+            </td>
+        </tr>
+
+        <tr>
+            <td> 密码：</td>
+        </tr>
+
+        <tr>
+            <td><input name ="password" type="password"></td>
+         </tr>
+
+        <tr>
+            <td>
+                登录方式：手机号码<input name ="d1" type="radio" value="0" checked>
+                           账号密码<input name ="d1" type="radio" value="1">
+            </td>
+        </tr>
+
+         <tr>
+            <td>
+                选择城市：北京<input name ="c1" type="checkbox" value="0">
+                           上海<input name ="c2" type="checkbox" value="1" checked>
+            </td>
+        </tr>
+        <tr>
+            <td>选择出生日期：
+                <select name = "d2">
+                    <option value="1970">1970</option>
+                    <option value="1971">1971</option>
+                    <option value="1972" selected>1972</option>
+                    <option value="1973">1973</option>
+                    <option value="1974">1974</option>
+                    <option value="1975">1975</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+               留言 <textarea name="book" cols="100" rows="10"></textarea>
+                <br>
+                <input  type="file">
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input  type="submit" value="登录">
+                 <input  type="reset" value="重填">
+            </td>
+        </tr>
+
+    </table>
+
+
+
+</body>
+</html>
